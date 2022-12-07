@@ -5,6 +5,7 @@ import Citydetailsdata from '../Citydetailsdata'
 import CurrentTime from '../CurrentTime'
 import InputSearchdata from '../InputSearchdata'
 
+
 export default function FullScreen({cityDetails, weatherDataList, setCityDetails }) {
     
     const {inputCity,cityName} = useContext(WeatherContext)
