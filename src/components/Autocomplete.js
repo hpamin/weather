@@ -47,7 +47,7 @@ const renderAutocomplete = () => {
     if (isShow && input) {
       if (filtered.length) {
         return (
-          <ul className="autocompleteUl bg-slate-300 w-full max-h-full overflow-y-scroll pr-5 rounded-2xl mt-1">
+          <ul className="autocompleteUl bg-slate-300 w-full max-h-full overflow-y-scroll pr-5 mt-1">
             {filtered.map((suggestion, index) => {
               let className;
               if (index === active) {

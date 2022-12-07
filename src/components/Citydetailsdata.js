@@ -1,6 +1,8 @@
 import React from 'react'
+import useWindowDimensions from './Getwidthscreen'
 
 export default function Citydetailsdata({cityDetails}) {
+
   return (
     <div className='w-full h-2/4 p-5 pr-10 pl-10'>
             <div className='flex gap-2 rounded-xl bg-slate-300  mb-5 mt-5 justify-center'>
